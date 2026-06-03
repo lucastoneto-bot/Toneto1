@@ -1,0 +1,121 @@
+/* Configurações Gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #2c1d11; /* Cor de madeira escura */
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3) 15%, transparent 20%);
+    background-size: 4px 4px;
+    color: #f4ecd8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a110b;
+    text-align: center;
+    padding: 30px 10px;
+    border-bottom: 4px double #d4af37; /* Borda cor de ouro */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #d4af37;
+    text-shadow: 2px 2px #000;
+}
+
+header p {
+    margin: 10px 0 0 0;
+    font-style: italic;
+    color: #a99260;
+}
+
+/* Conteúdo Principal (O Pergaminho) */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pergaminho {
+    background-color: #f1e4c3; /* Cor de pergaminho antigo */
+    color: #332211;
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8), inset 0px 0px 15px #d2b48c;
+    border: 2px solid #8b5a2b;
+    text-align: center;
+    position: relative;
+}
+
+.pergaminho h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    border-bottom: 2px dashed #8b5a2b;
+    padding-bottom: 10px;
+}
+
+#quadro-missao {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px dashed #5c3a21;
+    padding: 20px;
+    margin: 20px 0;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.missao-titulo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #8b0000; /* Vermelho escuro para a missão */
+    margin: 0 0 10px 0;
+}
+
+.missao-recompensa {
+    font-weight: bold;
+    color: #b8860b;
+    margin: 10px 0 0 0;
+}
+
+/* Botão Estilo Medieval */
+button {
+    background-color: #8b5a2b;
+    color: #f4ecd8;
+    border: 2px solid #d4af37;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-family: 'Georgia', serif;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+}
+
+button:hover {
+    background-color: #d4af37;
+    color: #1a110b;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
+    transform: translateY(2px);
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a110b;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #6e553c;
+    border-top: 2px solid #8b5a2b;
+}
