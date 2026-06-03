@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Reino de Stonehold</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">⚔️ Stonehold</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#reino">O Reino</a></li>
+                <li><a href="#taverna">A Taverna</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo a Stonehold</h1>
+            <p>Uma terra de cavaleiros honrados, dragões ancestrais e mistérios esquecidos pelo tempo.</p>
+            <a href="#taverna" class="btn-medieval">Explorar a Taverna</a>
+        </div>
+    </section>
+
+    <section id="reino" class="conteudo-secao">
+        <h2>As Crônicas do Reino</h2>
+        <hr class="divisor">
+        <div class="cards-container">
+            <div class="card">
+                <h3>O Castelo Alto</h3>
+                <p>Erguido na Era de Prata, a fortaleza de Stonehold resistiu a cem cercos e permanece como o coração da nossa soberania.</p>
+            </div>
+            <div class="card">
+                <h3>A Ordem dos Paladinos</h3>
+                <p>Guerreiros sagrados que juraram proteger os fracos e defender a justiça sob o código de aço e honra.</p>
+            </div>
+            <div class="card">
+                <h3>A Floresta Sombria</h3>
+                <p>Além das muralhas reside um bosque antigo, lar de criaturas mágicas e segredos que poucos ousam desvendar.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="taverna" class="taverna-secao">
+        <div class="pergaminho">
+            <h2>Mural de Missões da Taverna</h2>
+            <p>Forasteiro, o reino precisa de ajuda. Retire um pergaminho do mural para aceitar um contrato!</p>
+            
+            <button id="btn-missao" class="btn-medieval">Pegar uma Missão</button>
+            
+            <div id="quadro-missao" class="escondido">
+                <h3 id="titulo-missao"></h3>
+                <p id="desc-missao"></p>
+                <p><strong>Recompensa:</strong> <span id="recompensa-missao"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 1326 Reino de Stonehold. Todos os direitos reservados aos ferreiros e escribas reais.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
